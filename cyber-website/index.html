@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>BizBit Solutions | Monthly Tech & Business Services for Kenyan SMEs</title>
+	<!-- Tailwind CSS CDN for utility classes -->
+	<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+	<!-- Custom CSS -->
+		<meta name="description" content="BizBit Solutions offers all-in-one monthly tech and business services for Kenyan SMEs: websites, M-Pesa integration, cyber services, accounting, marketing, and more.">
+		<meta property="og:title" content="BizBit Solutions | Monthly Tech & Business Services for Kenyan SMEs">
+		<meta property="og:description" content="All-in-one monthly tech and business services for Kenyan SMEs – websites, M-Pesa integration, cyber services, accounting, marketing.">
+		<meta property="og:url" content="https://www.bizbitsolutions.co.ke/">
+		<meta property="og:image" content="https://www.bizbitsolutions.co.ke/assets/images/hero-desktop.jpg">
+		<meta property="og:type" content="website">
+		<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "LocalBusiness",
+			"name": "BizBit Solutions",
+			"url": "https://www.bizbitsolutions.co.ke",
+			"logo": "https://www.bizbitsolutions.co.ke/assets/images/logo.svg",
+			"image": "https://www.bizbitsolutions.co.ke/assets/images/hero-desktop.jpg",
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "Nairobi, Kenya",
+				"addressLocality": "Nairobi",
+				"addressCountry": "KE"
+			},
+			"telephone": "+254 XXXXX XXX",
+			"priceRange": "$$$",
+			"description": "All-in-one monthly tech and business services for Kenyan SMEs – websites, M-Pesa integration, cyber services, accounting, marketing.",
+			"serviceType": ["Web Development","M-Pesa Integration","Cyber & Government Compliance","Accounting & Bookkeeping","Digital Marketing","AI & Automation"]
+		}
+		</script>
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/utilities.css">
+</head>
+<body class="antialiased text-gray-800 bg-gray-50">
+<!-- HEADER -->
+<header class="bg-white shadow-sm sticky top-0 z-50">
+	<nav class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+		<a href="index.html" class="flex items-center gap-3">
+			<img src="assets/images/logo.svg" alt="BizBit Solutions logo" class="h-9 w-auto">
+			<span class="font-semibold text-lg">BizBit <span class="text-blue-600">Solutions</span></span>
+		</a>
+		<ul class="hidden md:flex gap-6 items-center">
+			<li><a href="index.html" class="text-blue-600 font-semibold">Home</a></li>
+			<li><a href="services.html" class="hover:text-blue-600 transition">Services</a></li>
+			<li><a href="about.html" class="hover:text-blue-600 transition">About</a></li>
+			<li><a href="contact.html" class="hover:text-blue-600 transition">Contact</a></li>
+		</ul>
+		<div class="hidden md:block">
+			<a href="contact.html" class="inline-block bg-blue-600 text-white px-5 py-2 rounded-full hover:bg-blue-700 transition">Get a Quote</a>
+		</div>
+		<button id="mobile-toggle" class="md:hidden p-2" aria-label="Open navigation">
+			<svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+				<path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
+			</svg>
+		</button>
+	</nav>
+	<div id="mobile-menu" class="hidden md:hidden bg-white border-t">
+		<ul class="px-4 py-4 space-y-3">
+			<li><a href="index.html" class="block text-blue-600 font-semibold">Home</a></li>
+			<li><a href="services.html" class="block hover:text-blue-600">Services</a></li>
+			<li><a href="about.html" class="block hover:text-blue-600">About</a></li>
+			<li><a href="contact.html" class="block hover:text-blue-600">Contact</a></li>
+			<li><a href="contact.html" class="block bg-blue-600 text-white px-4 py-2 rounded-full text-center">Get a Quote</a></li>
+		</ul>
+	</div>
+</header>
+
+<!-- MAIN CONTENT -->
+<main>
+	<!-- Hero Section (particles.js) -->
+	<section class="hero relative h-[560px] md:h-[640px]">
+		<!-- particles container -->
+		<div id="particles-js" class="absolute inset-0"></div>
+
+		<!-- overlay content -->
+		<div class="overlay relative z-10 max-w-6xl mx-auto px-4 h-full flex items-center">
+			<div class="w-full grid md:grid-cols-2 gap-8 items-center">
+				<div>
+					<img src="assets/images/logo.svg" alt="BizBit Solutions logo" class="h-10 mb-4">
+					<h1 class="text-4xl md:text-5xl font-extrabold text-white mb-4">All-in-One Tech & Cyber Services for Kenyan SMEs</h1>
+					<p class="text-xl text-white/90 mb-6">BizBit Solutions is your one-stop monthly tech partner for websites, M-Pesa, eCitizen, accounting, marketing & more. Trusted by SMEs across Nairobi, Mombasa, Nakuru, and Kisumu.</p>
+					<div class="flex gap-3">
+						<a href="services.html" class="cta-btn inline-block bg-white text-blue-700 px-6 py-3 rounded-full font-semibold shadow">Explore Services</a>
+						<a href="contact.html" class="inline-block bg-transparent border border-white text-white px-6 py-3 rounded-full font-semibold">Get a Quote</a>
+					</div>
+				</div>
+				<div class="hidden md:flex justify-center">
+					<picture class="w-full max-w-md rounded-lg overflow-hidden shadow-lg">
+						<source srcset="assets/images/hero-mobile.jpg" media="(max-width: 767px)">
+						<source srcset="assets/images/hero-desktop.jpg" media="(min-width: 768px)">
+						<img src="assets/images/hero-desktop.jpg" alt="Kenyan business team using tech tools and digital systems powered by Bizbit Solutions" class="w-full rounded-lg object-cover">
+					</picture>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!-- Services Preview -->
+<section class="max-w-6xl mx-auto px-4 py-16">
+<h2 class="text-3xl font-bold mb-8 text-center">Tech & Cyber Services in Kenya</h2>
+
+  <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+    
+    <!-- Web Development -->
+    <article class="bg-white p-6 rounded-lg shadow hover:shadow-md transition">
+	<h3 class="font-semibold text-lg mb-2">Website & System Development (M-Pesa Integrated)</h3>
+	<p class="text-sm text-gray-600">Custom websites, e-commerce, POS, CRM, ERP, and seamless M-Pesa payment integration for Kenyan businesses.</p>
+    </article>
+
+    <!-- Cyber Services -->
+    <article class="bg-white p-6 rounded-lg shadow hover:shadow-md transition">
+	<h3 class="font-semibold text-lg mb-2">Cyber Services: eCitizen, KRA, NSSF, NHIF, eTIMS, SHA</h3>
+	<p class="text-sm text-gray-600">Fast, secure access to eCitizen, KRA, NSSF, NHIF, eTIMS, SHA, HELB, NTSA, and all government portals for filing, registration, and compliance.</p>
+    </article>
+
+    <!-- Networking & CCTV -->
+    <article class="bg-white p-6 rounded-lg shadow hover:shadow-md transition">
+	<h3 class="font-semibold text-lg mb-2">Networking, CCTV & IT Consultancy</h3>
+	<p class="text-sm text-gray-600">Structured cabling, wireless networks, CCTV installation, and expert IT consultancy for offices, shops, and SMEs.</p>
+    </article>
+
+    <!-- M-Pesa & Payment Integrations -->
+    <article class="bg-white p-6 rounded-lg shadow hover:shadow-md transition">
+	<h3 class="font-semibold text-lg mb-2">M-Pesa & Payment Integrations</h3>
+	<p class="text-sm text-gray-600">Integrate M-Pesa APIs, online checkouts, business Tills, and mobile payments into your websites and systems for seamless transactions.</p>
+    </article>
+
+    <!-- AI & Automation -->
+    <article class="bg-white p-6 rounded-lg shadow hover:shadow-md transition">
+	<h3 class="font-semibold text-lg mb-2">AI Chatbots & Automation (Advanced)</h3>
+	<p class="text-sm text-gray-600">Optional advanced service: AI chatbots, workflow automation, and analytics to make your business smarter and more efficient.</p>
+    </article>
+
+    <!-- Accounting & Bookkeeping -->
+    <article class="bg-white p-6 rounded-lg shadow hover:shadow-md transition">
+	<h3 class="font-semibold text-lg mb-2">Accounting, Bookkeeping & Tax Filing</h3>
+	<p class="text-sm text-gray-600">Bookkeeping, payroll, invoicing, tax filing, and compliance solutions for SMEs and startups in Kenya.</p>
+    </article>
+
+    <!-- Brand & Digital Marketing -->
+    <article class="bg-white p-6 rounded-lg shadow hover:shadow-md transition">
+	<h3 class="font-semibold text-lg mb-2">Business Branding & Online Marketing</h3>
+	<p class="text-sm text-gray-600">Social media marketing, SEO, graphic design, and branding to grow your business across Kenya.</p>
+    </article>
+
+    <!-- Fiber Deployment & Engineering -->
+    <article class="bg-white p-6 rounded-lg shadow hover:shadow-md transition">
+	<h3 class="font-semibold text-lg mb-2">Data Entry, Collection & Analytics</h3>
+	<p class="text-sm text-gray-600">Professional data entry, collection, and analytics services for business intelligence and growth.</p>
+    </article>
+  </div>
+
+<!-- Service Packages Section -->
+<section class="max-w-6xl mx-auto px-4 py-16">
+	<h2 class="text-3xl font-bold mb-8 text-center">Service Packages for Kenyan SMEs</h2>
+	<div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+		<!-- Free Consultancy -->
+		<article class="bg-white p-6 rounded-lg shadow hover:shadow-md transition flex flex-col justify-between">
+			<div>
+				<h3 class="font-semibold text-lg mb-2">Free Consultancy</h3>
+				<ul class="space-y-2 text-gray-700 mb-4">
+				  <li class="flex items-start"><i class="fa-solid fa-circle-check text-green-500 mr-2"></i> Tech & business advice</li>
+				  <li class="flex items-start"><i class="fa-solid fa-circle-check text-green-500 mr-2"></i> No commitment required</li>
+				</ul>
+				<div class="text-blue-600 font-bold text-xl mb-4">Ksh 0</div>
+			</div>
+			<button class="cta-btn w-full" aria-label="Get Started with Free Consultancy">Get Started</button>
+		</article>
+		<!-- Starter -->
+		<article class="bg-white p-6 rounded-lg shadow hover:shadow-md transition flex flex-col justify-between">
+			<div>
+				<h3 class="font-semibold text-lg mb-2">Starter</h3>
+				<ul class="space-y-2 text-gray-700 mb-4">
+				  <li class="flex items-start"><i class="fa-solid fa-circle-check text-green-500 mr-2"></i> Website & System Setup (M-Pesa)</li>
+				  <li class="flex items-start"><i class="fa-solid fa-circle-check text-green-500 mr-2"></i> Social Media Management</li>
+				  <li class="flex items-start"><i class="fa-solid fa-circle-check text-green-500 mr-2"></i> Basic support</li>
+				</ul>
+				<div class="text-blue-600 font-bold text-xl mb-4">Ksh 4,500/mo</div>
+			</div>
+			<button class="cta-btn w-full" aria-label="Get Started with Starter Package">Get Started</button>
+		</article>
+		<!-- Pro -->
+		<article class="bg-white p-6 rounded-lg shadow hover:shadow-md transition flex flex-col justify-between">
+			<div>
+				<h3 class="font-semibold text-lg mb-2">Pro</h3>
+				<ul class="space-y-2 text-gray-700 mb-4">
+				  <li class="flex items-start"><i class="fa-solid fa-circle-check text-green-500 mr-2"></i> Advanced website & M-Pesa</li>
+				  <li class="flex items-start"><i class="fa-solid fa-circle-check text-green-500 mr-2"></i> Bookkeeping & Monthly Reports</li>
+				  <li class="flex items-start"><i class="fa-solid fa-circle-check text-green-500 mr-2"></i> Branding & Analytics</li>
+				</ul>
+				<div class="text-blue-600 font-bold text-xl mb-4">Ksh 9,500/mo</div>
+			</div>
+			<button class="cta-btn w-full" aria-label="Get Started with Pro Package">Get Started</button>
+		</article>
+		<!-- Enterprise -->
+		<article class="bg-white p-6 rounded-lg shadow hover:shadow-md transition flex flex-col justify-between">
+			<div>
+				<h3 class="font-semibold text-lg mb-2">Enterprise</h3>
+				<ul class="space-y-2 text-gray-700 mb-4">
+				  <li class="flex items-start"><i class="fa-solid fa-circle-check text-green-500 mr-2"></i> All tech, cyber, legal, and marketing</li>
+				  <li class="flex items-start"><i class="fa-solid fa-circle-check text-green-500 mr-2"></i> Government Compliance (eTIMS, eCitizen, SHA)</li>
+				  <li class="flex items-start"><i class="fa-solid fa-circle-check text-green-500 mr-2"></i> Data Analytics Dashboard</li>
+				  <li class="flex items-start"><i class="fa-solid fa-circle-check text-green-500 mr-2"></i> AI Chatbots & Automation Tools</li>
+				</ul>
+				<div class="text-blue-600 font-bold text-xl mb-4">Ksh 19,500/mo</div>
+			</div>
+			<button class="cta-btn w-full" aria-label="Get Started with Enterprise Package">Get Started</button>
+		</article>
+	</div>
+</section>
+</section>
+
+
+
+<!-- FOOTER -->
+<footer class="bg-gray-900 text-gray-200 py-8 mt-16">
+	<div class="max-w-6xl mx-auto px-4">
+		<div class="flex flex-col md:flex-row md:justify-between gap-6">
+			<div>
+				<img src="assets/images/logo.svg" alt="BizBit Solutions logo" class="h-8 mb-2">
+				<p class="text-sm text-gray-400">All-in-one tech, cyber, and business services for Kenyan SMEs.</p>
+			</div>
+			<div>
+				<h4 class="font-semibold mb-2">Quick links</h4>
+				<ul class="text-sm text-gray-400 space-y-1">
+					<li><a href="services.html" class="hover:text-white">Services</a></li>
+					<li><a href="about.html" class="hover:text-white">About</a></li>
+					<li><a href="contact.html" class="hover:text-white">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="mt-6 text-sm text-gray-500 text-center">© 2025 BizBit Solutions. Trusted by SMEs across Nairobi, Mombasa, Nakuru, and Kisumu. All rights reserved.</div>
+	</div>
+</footer>
+
+
+
+
+		<script src="assets/js/vendor/particles-loader.js"></script>
+		<script src="assets/js/main.js"></script>
+		<script src="assets/js/ui.js"></script>
+	</body>
+	</html>

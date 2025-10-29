@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — Bizbit Solutions</title>
+  <meta name="description" content="Privacy policy for Bizbit Solutions — Kenya’s complete tech & business services partner for SMEs.">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" href="assets/images/logo.svg">
+</head>
+<body class="antialiased text-gray-800 bg-gray-50">
+
+  <!-- HEADER -->
+  <header class="bg-white shadow-sm sticky top-0 z-50">
+    <nav class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-3">
+        <img src="assets/images/logo.svg" alt="Bizbit Solutions logo" class="h-9 w-auto">
+        <span class="font-semibold text-lg">Bizbit Solutions</span>
+      </a>
+
+      <ul class="hidden md:flex gap-6 items-center">
+        <li><a href="index.html" class="hover:text-blue-600 transition">Home</a></li>
+        <li><a href="services.html" class="hover:text-blue-600 transition">Services</a></li>
+        <li><a href="about.html" class="hover:text-blue-600 transition">About</a></li>
+        <li><a href="contact.html" class="hover:text-blue-600 transition">Contact</a></li>
+      </ul>
+
+      <div class="hidden md:block">
+        <a href="contact.html" class="inline-block bg-blue-600 text-white px-5 py-2 rounded-full hover:bg-blue-700 transition">Get a Quote</a>
+      </div>
+
+      <button id="mobile-toggle" class="md:hidden p-2" aria-label="Open navigation">
+        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+    </nav>
+
+    <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
+      <ul class="px-4 py-4 space-y-3">
+        <li><a href="index.html" class="block hover:text-blue-600">Home</a></li>
+        <li><a href="services.html" class="block hover:text-blue-600">Services</a></li>
+        <li><a href="about.html" class="block hover:text-blue-600">About</a></li>
+        <li><a href="contact.html" class="block hover:text-blue-600">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <section class="max-w-4xl mx-auto px-4 py-16">
+      <h1 class="text-4xl font-bold mb-8">Privacy Policy</h1>
+      <p class="text-gray-600 mb-8">Last updated: October 19, 2025</p>
+
+      <div class="prose prose-lg max-w-none space-y-6 text-gray-700">
+        <section>
+          <h2 class="text-2xl font-bold mb-4">Introduction</h2>
+          <p>Bizbit Solutions ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.</p>
+        </section>
+
+        <section>
+          <h2 class="text-2xl font-bold mb-4">Information We Collect</h2>
+          <p class="mb-3">We collect information that you provide directly to us, including:</p>
+          <ul class="list-disc pl-6 space-y-2">
+            <li>Name and contact information (email, phone number)</li>
+            <li>Business information when requesting quotes</li>
+            <li>Payment information for service transactions</li>
+            <li>Communications with our team</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2 class="text-2xl font-bold mb-4">How We Use Your Information</h2>
+          <p class="mb-3">We use the information we collect to:</p>
+          <ul class="list-disc pl-6 space-y-2">
+            <li>Provide and maintain our services</li>
+            <li>Process your transactions</li>
+            <li>Send you updates about our services</li>
+            <li>Respond to your inquiries and support requests</li>
+            <li>Improve our website and services</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2 class="text-2xl font-bold mb-4">Information Sharing</h2>
+          <p>We do not sell, trade, or otherwise transfer your personal information to third parties without your consent, except as required by law or as necessary to provide our services (e.g., payment processors).</p>
+        </section>
+
+        <section>
+          <h2 class="text-2xl font-bold mb-4">Data Security</h2>
+          <p>We implement appropriate technical and organizational measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction.</p>
+        </section>
+
+        <section>
+          <h2 class="text-2xl font-bold mb-4">Your Rights</h2>
+          <p class="mb-3">You have the right to:</p>
+          <ul class="list-disc pl-6 space-y-2">
+            <li>Access your personal information</li>
+            <li>Correct inaccurate data</li>
+            <li>Request deletion of your data</li>
+            <li>Object to processing of your data</li>
+            <li>Withdraw consent at any time</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2 class="text-2xl font-bold mb-4">Cookies</h2>
+          <p>Our website may use cookies to enhance user experience. You can choose to disable cookies through your browser settings, though this may affect website functionality.</p>
+        </section>
+
+        <section>
+          <h2 class="text-2xl font-bold mb-4">Changes to This Policy</h2>
+          <p>We may update this privacy policy from time to time. We will notify you of any changes by posting the new policy on this page with an updated "Last updated" date.</p>
+        </section>
+
+        <section>
+          <h2 class="text-2xl font-bold mb-4">Contact Us</h2>
+          <p>If you have questions about this Privacy Policy, please contact us at:</p>
+          <ul class="list-none space-y-2 mt-3">
+          <li><strong>Email:</strong> privacy@bizbitsolutions.co.ke</li>
+            <li><strong>Phone:</strong> +254 XXX XXX XXX</li>
+            <li><strong>Address:</strong> Nairobi, Kenya</li>
+          </ul>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-gray-900 text-gray-200 py-12">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div class="md:col-span-2">
+          <img src="assets/images/logo.svg" alt="BizBit Solutions logo" class="h-10 mb-4">
+          <p class="text-gray-400 mb-4">All-in-one technology solutions for businesses and individuals. Building the future, one system at a time.</p>
+        </div>
+        
+        <div>
+          <h4 class="font-semibold mb-4">Quick Links</h4>
+          <ul class="space-y-2 text-gray-400">
+            <li><a href="services.html" class="hover:text-white transition">Services</a></li>
+            <li><a href="about.html" class="hover:text-white transition">About</a></li>
+            <li><a href="contact.html" class="hover:text-white transition">Contact</a></li>
+            <li><a href="privacy.html" class="hover:text-white transition">Privacy Policy</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h4 class="font-semibold mb-4">Contact</h4>
+          <ul class="space-y-2 text-gray-400">
+            <li>Nairobi, Kenya</li>
+              <li>info@bizbitsolutions.co.ke</li>
+            <li>+254 XXX XXX XXX</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+        <p>&copy; 2025 Bizbit Solutions. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

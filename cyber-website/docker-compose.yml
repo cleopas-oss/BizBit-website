@@ -1,0 +1,10 @@
+version: '3.9'
+services:
+  web:
+    build:
+      context: ./
+      dockerfile: docker/Dockerfile
+    ports:
+      - "8080:80"       # Expose Nginx on localhost:8080
+    container_name: bizbots_frontend
+    restart: unless-stopped 

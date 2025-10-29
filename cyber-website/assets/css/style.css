@@ -1,0 +1,263 @@
+/* Custom styles for BizBots AI Solutions */
+/* Keep this minimal - most styling uses Tailwind utility classes */
+
+:root {
+  --brand-primary: #2563eb; /* blue-600 */
+  --brand-secondary: #9333ea; /* purple-600 */
+  --text-primary: #1f2937; /* gray-800 */
+  --text-secondary: #6b7280; /* gray-500 */
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom font if needed - uncomment and add Google Fonts link in HTML */
+/* body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+} */
+
+/* Screen reader only utility */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Focus styles for accessibility */
+a:focus,
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+  outline: 2px solid var(--brand-primary);
+  outline-offset: 2px;
+}
+
+/* Custom scrollbar (webkit browsers) */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Gradient text utility */
+.gradient-text {
+  background: linear-gradient(135deg, var(--brand-primary), var(--brand-secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Animation utilities */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.6s ease-out;
+}
+
+/* Form validation styles */
+.form-error {
+  border-color: #ef4444 !important;
+}
+
+.error-message {
+  color: #ef4444;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+/* Success message */
+.success-message {
+  background-color: #d1fae5;
+  color: #065f46;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+}
+
+/* Loading state */
+.loading {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+/* Mobile menu animation */
+#mobile-menu {
+  transition: max-height 0.3s ease-in-out;
+}
+
+/* Hover effects for cards */
+.hover-lift {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Print styles */
+@media print {
+  header,
+  footer,
+  #mobile-toggle,
+  .no-print {
+    display: none !important;
+  }
+  
+  body {
+    font-size: 12pt;
+  }
+  
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+}
+
+/* === Global Reset === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* === Root Colors & Fonts === */
+:root {
+  --primary: #00aaff;
+  --secondary: #0d0d0d;
+  --accent: #ffffff;
+  --gradient1: #0b0f24;
+  --gradient2: #0a1a44;
+  --font-main: 'Poppins', sans-serif;
+}
+
+/* === Body Styling === */
+body {
+  font-family: var(--font-main);
+  background: var(--secondary);
+  color: var(--accent);
+  overflow-x: hidden;
+}
+
+/* === Hero Section === */
+.hero {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, var(--gradient1), var(--gradient2));
+}
+
+/* === Particles Canvas Layer === */
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+/* === Text Overlay === */
+.overlay {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  max-width: 800px;
+  padding: 0 20px;
+  color: #fff;
+  animation: fadeIn 1.5s ease-out;
+}
+
+/* === Logo === */
+.logo {
+  width: 100px;
+  margin-bottom: 20px;
+  animation: float 6s ease-in-out infinite;
+}
+
+/* === Headline === */
+.hero h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+/* === Paragraph === */
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  color: #cfd8dc;
+}
+
+/* === CTA Button === */
+.cta-btn {
+  display: inline-block;
+  background: var(--primary);
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 28px;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.cta-btn:hover {
+  background: #0088cc;
+  transform: translateY(-3px);
+}
+
+/* === Keyframe Animations === */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+/* Accessibility: respect prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  #particles-js {
+    display: none !important;
+  }
+  .logo {
+    animation: none !important;
+  }
+  .animate-fade-in {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
