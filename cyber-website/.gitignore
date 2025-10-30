@@ -48,3 +48,4 @@ temp/
 # /api/.env
 # *.pem
 # *.key
+.vercel
