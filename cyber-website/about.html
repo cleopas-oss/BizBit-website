@@ -31,50 +31,142 @@
   }
   </script>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="icon" href="/assets/images/logo.svg">
 </head>
 <body class="antialiased text-gray-800 bg-gray-50">
 
-  <!-- HEADER -->
-  <header class="bg-white shadow-sm sticky top-0 z-50">
-    <nav class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
-      <a href="/index.html" class="flex items-center gap-3">
-        <img src="/assets/images/logo.svg" alt="Bizbit Solutions logo" class="h-9 w-auto">
-        <span class="font-semibold text-lg">Bizbit Solutions</span>
-      </a>
+  <!-- SIDEBAR NAVIGATION -->
+<div class="sidebar" id="sidebar">
+	<div class="brand">
+		<img src="/assets/images/logo.svg" alt="BizBit Solutions Logo" />
+		<h2>BizBit <span class="text-blue-600">Solutions</span></h2>
+	</div>
+	
+	<ul class="nav-links">
+		<li><a href="/index.html"><i class="fas fa-home"></i> Home</a></li>
+		
+		<!-- Web & System Development -->
+		<li>
+			<button class="dropdown-btn" aria-haspopup="true" aria-expanded="false">
+				<i class="fas fa-code"></i> Web & System Development
+			</button>
+			<ul class="dropdown-container">
+				<li><a href="/services/website-design-seo.html">Website Design & SEO</a></li>
+				<li><a href="/services/ecommerce-pos-systems.html">E-commerce & POS Systems</a></li>
+				<li><a href="/services/crm-erp-implementation.html">CRM & ERP Implementation</a></li>
+				<li><a href="/services/progressive-web-apps-pwa.html">Progressive Web Apps (PWA)</a></li>
+			</ul>
+		</li>
+		
+		<!-- AI & Chatbot Solutions -->
+		<li>
+			<button class="dropdown-btn" aria-haspopup="true" aria-expanded="false">
+				<i class="fas fa-robot"></i> AI & Chatbot Solutions
+			</button>
+			<ul class="dropdown-container">
+				<li><a href="/services/customer-service-chatbots.html">Customer Service Chatbots</a></li>
+				<li><a href="/services/whatsapp-social-media-bots.html">WhatsApp & Social Media Bots</a></li>
+				<li><a href="/services/recommendation-engines.html">Recommendation Engines</a></li>
+				<li><a href="/services/machine-learning-models.html">Machine Learning Models</a></li>
+			</ul>
+		</li>
+		
+		<!-- Networking & CCTV -->
+		<li>
+			<button class="dropdown-btn" aria-haspopup="true" aria-expanded="false">
+				<i class="fas fa-network-wired"></i> Networking & CCTV
+			</button>
+			<ul class="dropdown-container">
+				<li><a href="/services/network-design-installation.html">Network Design & Installation</a></li>
+				<li><a href="/services/cctv-surveillance-systems.html">CCTV & Surveillance Systems</a></li>
+				<li><a href="/services/wireless-wifi-solutions.html">Wireless & WiFi Solutions</a></li>
+				<li><a href="/services/network-security-firewalls.html">Network Security & Firewalls</a></li>
+			</ul>
+		</li>
+		
+		<!-- M-Pesa Integration -->
+		<li>
+			<button class="dropdown-btn" aria-haspopup="true" aria-expanded="false">
+				<i class="fas fa-mobile-alt"></i> M-Pesa Integration
+			</button>
+			<ul class="dropdown-container">
+				<li><a href="/services/daraja-api-integration.html">Daraja API Integration</a></li>
+				<li><a href="/services/stk-push-payment-collection.html">STK Push & Payment Collection</a></li>
+				<li><a href="/services/b2b-b2c-payment-solutions.html">B2B & B2C Payment Solutions</a></li>
+				<li><a href="/services/transaction-tracking-reporting.html">Transaction Tracking & Reporting</a></li>
+			</ul>
+		</li>
+		
+		<!-- Accounting & Bookkeeping -->
+		<li>
+			<button class="dropdown-btn" aria-haspopup="true" aria-expanded="false">
+				<i class="fas fa-calculator"></i> Accounting & Bookkeeping
+			</button>
+			<ul class="dropdown-container">
+				<li><a href="/services/monthly-bookkeeping-packages.html">Monthly Bookkeeping Packages</a></li>
+				<li><a href="/services/financial-reporting-dashboards.html">Financial Reporting Dashboards</a></li>
+				<li><a href="/services/invoice-expense-management.html">Invoice & Expense Management</a></li>
+				<li><a href="/services/tax-compliance-automation.html">Tax Compliance Automation</a></li>
+			</ul>
+		</li>
+		
+		<!-- Digital Marketing -->
+		<li>
+			<button class="dropdown-btn" aria-haspopup="true" aria-expanded="false">
+				<i class="fas fa-bullhorn"></i> Digital Marketing
+			</button>
+			<ul class="dropdown-container">
+				<li><a href="/services/search-engine-optimization.html">Search Engine Optimization (SEO)</a></li>
+				<li><a href="/services/social-media-management.html">Social Media Management</a></li>
+				<li><a href="/services/content-marketing-strategy.html">Content Marketing Strategy</a></li>
+				<li><a href="/services/email-marketing-campaigns.html">Email Marketing Campaigns</a></li>
+			</ul>
+		</li>
+		
+		<!-- Business Services -->
+		<li>
+			<button class="dropdown-btn" aria-haspopup="true" aria-expanded="false">
+				<i class="fas fa-briefcase"></i> Business Services
+			</button>
+			<ul class="dropdown-container">
+				<li><a href="/services/brand-strategy-business-identity.html">Brand Strategy & Business Identity</a></li>
+				<li><a href="/services/business-automation-operations.html">Business Automation & Operations</a></li>
+				<li><a href="/services/outsourced-back-office-support.html">Outsourced Back-Office Support</a></li>
+				<li><a href="/services/client-dashboard-support-services.html">Client Dashboard & Support Services</a></li>
+			</ul>
+		</li>
+		
+		<!-- Tax & Compliance Services -->
+		<li>
+			<button class="dropdown-btn" aria-haspopup="true" aria-expanded="false">
+				<i class="fas fa-file-invoice-dollar"></i> Tax & Compliance Services
+			</button>
+			<ul class="dropdown-container">
+				<li><a href="/services/tax-advisory-filing.html">Tax Advisory & Filing</a></li>
+				<li><a href="/services/ecitizen-government-services.html">eCitizen & Government Services</a></li>
+				<li><a href="/services/ntsa-etims-sha-compliance.html">NTSA, eTIMS & SHA Compliance</a></li>
+				<li><a href="/services/corporate-registration-legal-services.html">Corporate Registration & Legal Services</a></li>
+			</ul>
+		</li>
+		
+		<li><a href="/about.html" class="active"><i class="fas fa-info-circle"></i> About</a></li>
+		<li><a href="/contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+	</ul>
+</div>
 
-      <ul class="hidden md:flex gap-6 items-center">
-        <li><a href="/index.html" class="hover:text-blue-600 transition">Home</a></li>
-        <li><a href="/services.html" class="hover:text-blue-600 transition">Services</a></li>
-        <li><a href="/about.html" class="text-blue-600 font-semibold">About</a></li>
-        <li><a href="/contact.html" class="hover:text-blue-600 transition">Contact</a></li>
-      </ul>
+<!-- SIDEBAR OVERLAY FOR MOBILE -->
+<div class="sidebar-overlay" id="sidebar-overlay"></div>
 
-      <div class="hidden md:block">
-        <a href="contact.html" class="inline-block bg-blue-600 text-white px-5 py-2 rounded-full hover:bg-blue-700 transition">Get a Quote</a>
-      </div>
+<!-- MAIN CONTENT -->
+<div class="main-content" id="main-content">
+	<!-- HAMBURGER TOGGLE BUTTON -->
+	<button id="toggle-btn" class="hamburger" aria-label="Toggle navigation">
+		<i class="fas fa-bars"></i>
+	</button>
 
-      <button id="mobile-toggle" class="md:hidden p-2" aria-label="Open navigation">
-        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
-        </svg>
-      </button>
-    </nav>
-
-    <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
-      <ul class="px-4 py-4 space-y-3">
-        <li><a href="index.html" class="block hover:text-blue-600">Home</a></li>
-        <li><a href="services.html" class="block hover:text-blue-600">Services</a></li>
-        <li><a href="about.html" class="block text-blue-600 font-semibold">About</a></li>
-        <li><a href="contact.html" class="block hover:text-blue-600">Contact</a></li>
-        <li><a href="contact.html" class="block bg-blue-600 text-white px-4 py-2 rounded-full text-center">Get a Quote</a></li>
-      </ul>
-    </div>
-  </header>
-
-  <!-- MAIN CONTENT -->
-  <main>
+	<main>
     <!-- Page Header -->
     <section class="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-16">
       <div class="max-w-6xl mx-auto px-4 text-center">
@@ -244,6 +336,7 @@
   </footer>
 
   <script src="/assets/js/main.js"></script>
+  <script src="/assets/js/ui.js" defer></script>
 
   <!-- WhatsApp floating contact button (inserted inside <body>) -->
   <a id="bizbit-wa" class="bizbit-wa" href="https://wa.me/254716865277?text=Hello%20Bizbit%20Solutions%2C%20I%20need%20a%20quote" target="_blank" rel="noopener noreferrer" aria-label="Contact Bizbit Solutions on WhatsApp">

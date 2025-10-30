@@ -6,21 +6,142 @@
   <title>Dashboard — Bizbit Solutions</title>
   <meta name="description" content="Bizbit Solutions client dashboard — coming soon for Kenyan SMEs with secure portal, project tracking, and M-Pesa integration.">
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="icon" href="/assets/images/logo.svg">
 </head>
 <body class="antialiased text-gray-800 bg-gray-50">
 
-  <!-- HEADER -->
-  <header class="bg-white shadow-sm">
-    <nav class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
-      <a href="index.html" class="flex items-center gap-3">
-  <img src="/assets/images/logo.svg" alt="Bizbit Solutions logo" class="h-9 w-auto">
-        <span class="font-semibold text-lg">Bizbit Solutions</span>
-      </a>
-      <a href="index.html" class="text-blue-600 hover:text-blue-700">← Back to Home</a>
-    </nav>
-  </header>
+  <!-- SIDEBAR NAVIGATION -->
+<div class="sidebar" id="sidebar">
+	<div class="brand">
+		<img src="/assets/images/logo.svg" alt="BizBit Solutions Logo" />
+		<h2>BizBit <span class="text-blue-600">Solutions</span></h2>
+	</div>
+	
+	<ul class="nav-links">
+		<li><a href="/index.html"><i class="fas fa-home"></i> Home</a></li>
+		
+		<!-- Web & System Development -->
+		<li>
+			<button class="dropdown-btn" aria-haspopup="true" aria-expanded="false">
+				<i class="fas fa-code"></i> Web & System Development
+			</button>
+			<ul class="dropdown-container">
+				<li><a href="/services/website-design-seo.html">Website Design & SEO</a></li>
+				<li><a href="/services/ecommerce-pos-systems.html">E-commerce & POS Systems</a></li>
+				<li><a href="/services/crm-erp-implementation.html">CRM & ERP Implementation</a></li>
+				<li><a href="/services/progressive-web-apps-pwa.html">Progressive Web Apps (PWA)</a></li>
+			</ul>
+		</li>
+		
+		<!-- AI & Chatbot Solutions -->
+		<li>
+			<button class="dropdown-btn" aria-haspopup="true" aria-expanded="false">
+				<i class="fas fa-robot"></i> AI & Chatbot Solutions
+			</button>
+			<ul class="dropdown-container">
+				<li><a href="/services/customer-service-chatbots.html">Customer Service Chatbots</a></li>
+				<li><a href="/services/whatsapp-social-media-bots.html">WhatsApp & Social Media Bots</a></li>
+				<li><a href="/services/recommendation-engines.html">Recommendation Engines</a></li>
+				<li><a href="/services/machine-learning-models.html">Machine Learning Models</a></li>
+			</ul>
+		</li>
+		
+		<!-- Networking & CCTV -->
+		<li>
+			<button class="dropdown-btn" aria-haspopup="true" aria-expanded="false">
+				<i class="fas fa-network-wired"></i> Networking & CCTV
+			</button>
+			<ul class="dropdown-container">
+				<li><a href="/services/network-design-installation.html">Network Design & Installation</a></li>
+				<li><a href="/services/cctv-surveillance-systems.html">CCTV & Surveillance Systems</a></li>
+				<li><a href="/services/wireless-wifi-solutions.html">Wireless & WiFi Solutions</a></li>
+				<li><a href="/services/network-security-firewalls.html">Network Security & Firewalls</a></li>
+			</ul>
+		</li>
+		
+		<!-- M-Pesa Integration -->
+		<li>
+			<button class="dropdown-btn" aria-haspopup="true" aria-expanded="false">
+				<i class="fas fa-mobile-alt"></i> M-Pesa Integration
+			</button>
+			<ul class="dropdown-container">
+				<li><a href="/services/daraja-api-integration.html">Daraja API Integration</a></li>
+				<li><a href="/services/stk-push-payment-collection.html">STK Push & Payment Collection</a></li>
+				<li><a href="/services/b2b-b2c-payment-solutions.html">B2B & B2C Payment Solutions</a></li>
+				<li><a href="/services/transaction-tracking-reporting.html">Transaction Tracking & Reporting</a></li>
+			</ul>
+		</li>
+		
+		<!-- Accounting & Bookkeeping -->
+		<li>
+			<button class="dropdown-btn" aria-haspopup="true" aria-expanded="false">
+				<i class="fas fa-calculator"></i> Accounting & Bookkeeping
+			</button>
+			<ul class="dropdown-container">
+				<li><a href="/services/monthly-bookkeeping-packages.html">Monthly Bookkeeping Packages</a></li>
+				<li><a href="/services/financial-reporting-dashboards.html">Financial Reporting Dashboards</a></li>
+				<li><a href="/services/invoice-expense-management.html">Invoice & Expense Management</a></li>
+				<li><a href="/services/tax-compliance-automation.html">Tax Compliance Automation</a></li>
+			</ul>
+		</li>
+		
+		<!-- Digital Marketing -->
+		<li>
+			<button class="dropdown-btn" aria-haspopup="true" aria-expanded="false">
+				<i class="fas fa-bullhorn"></i> Digital Marketing
+			</button>
+			<ul class="dropdown-container">
+				<li><a href="/services/search-engine-optimization.html">Search Engine Optimization (SEO)</a></li>
+				<li><a href="/services/social-media-management.html">Social Media Management</a></li>
+				<li><a href="/services/content-marketing-strategy.html">Content Marketing Strategy</a></li>
+				<li><a href="/services/email-marketing-campaigns.html">Email Marketing Campaigns</a></li>
+			</ul>
+		</li>
+		
+		<!-- Business Services -->
+		<li>
+			<button class="dropdown-btn" aria-haspopup="true" aria-expanded="false">
+				<i class="fas fa-briefcase"></i> Business Services
+			</button>
+			<ul class="dropdown-container">
+				<li><a href="/services/brand-strategy-business-identity.html">Brand Strategy & Business Identity</a></li>
+				<li><a href="/services/business-automation-operations.html">Business Automation & Operations</a></li>
+				<li><a href="/services/outsourced-back-office-support.html">Outsourced Back-Office Support</a></li>
+				<li><a href="/services/client-dashboard-support-services.html">Client Dashboard & Support Services</a></li>
+			</ul>
+		</li>
+		
+		<!-- Tax & Compliance Services -->
+		<li>
+			<button class="dropdown-btn" aria-haspopup="true" aria-expanded="false">
+				<i class="fas fa-file-invoice-dollar"></i> Tax & Compliance Services
+			</button>
+			<ul class="dropdown-container">
+				<li><a href="/services/tax-advisory-filing.html">Tax Advisory & Filing</a></li>
+				<li><a href="/services/ecitizen-government-services.html">eCitizen & Government Services</a></li>
+				<li><a href="/services/ntsa-etims-sha-compliance.html">NTSA, eTIMS & SHA Compliance</a></li>
+				<li><a href="/services/corporate-registration-legal-services.html">Corporate Registration & Legal Services</a></li>
+			</ul>
+		</li>
+		
+		<li><a href="/about.html"><i class="fas fa-info-circle"></i> About</a></li>
+		<li><a href="/contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+	</ul>
+</div>
+
+<!-- SIDEBAR OVERLAY FOR MOBILE -->
+<div class="sidebar-overlay" id="sidebar-overlay"></div>
+
+<!-- MAIN CONTENT -->
+<div class="main-content" id="main-content">
+	<!-- HAMBURGER TOGGLE BUTTON -->
+	<button id="toggle-btn" class="hamburger" aria-label="Toggle navigation">
+		<i class="fas fa-bars"></i>
+	</button>
+
+	<main>
 
   <!-- MAIN CONTENT -->
   <main class="min-h-screen flex items-center justify-center px-4">
@@ -82,5 +203,8 @@
   </footer>
 
   <script src="/assets/js/main.js"></script>
+  </div> <!-- End main-content -->
+
+  <script src="/assets/js/ui.js" defer></script>
 </body>
 </html>
