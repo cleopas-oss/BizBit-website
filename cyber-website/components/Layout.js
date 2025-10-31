@@ -1,5 +1,10 @@
 import Head from 'next/head'
 import Script from 'next/script'
+import ModernBackground from './ModernBackground'
+import ParticlesTest from './ParticlesTest'
+import AnimationDebug from './AnimationDebug'
+import CriticalCSS from './CriticalCSS'
+import VercelAnimationFix from './VercelAnimationFix'
 
 export default function Layout({ children, title = "BizBit Solutions", description = "All-in-one tech and business services for Kenyan SMEs" }) {
   return (
@@ -13,7 +18,18 @@ export default function Layout({ children, title = "BizBit Solutions", descripti
         <link rel="stylesheet" href="/assets/css/style.css" />
       </Head>
 
+      {/* Critical CSS for immediate loading */}
+      <CriticalCSS />
+
       <div className="antialiased text-gray-800 bg-gray-50">
+        {/* Modern Professional Background Animation */}
+        <ModernBackground />
+        {/* Debug Info (dev only) */}
+        <ParticlesTest />
+        {/* Animation Debug Panel */}
+        <AnimationDebug />
+        {/* Vercel Deployment Fix */}
+        <VercelAnimationFix />
         {/* SIDEBAR NAVIGATION */}
         <div className="sidebar" id="sidebar">
           <div className="brand">

@@ -10,11 +10,8 @@ export default function HomePage({ featuredServices }) {
       title="BizBit Solutions | Monthly Tech & Business Services for Kenyan SMEs"
       description="BizBit Solutions offers all-in-one monthly tech and business services for Kenyan SMEs: websites, M-Pesa integration, cyber services, accounting, marketing, and more."
     >
-      {/* Hero Section (particles.js) */}
+      {/* Hero Section with TSParticles Background */}
       <section className="hero relative h-[560px] md:h-[640px]">
-        {/* particles container */}
-        <div id="particles-js" className="absolute inset-0"></div>
-
         {/* overlay content */}
         <div className="overlay relative z-10 max-w-6xl mx-auto px-4 h-full flex items-center">
           <div className="w-full grid md:grid-cols-2 gap-8 items-center">
@@ -229,8 +226,7 @@ export default function HomePage({ featuredServices }) {
         </div>
       </section>
 
-      <script src="/assets/js/vendor/particles-loader.js"></script>
-      <script src="/assets/js/main.js"></script>
+      {/* Particles now handled globally via TSParticles in _app.js */}
     </Layout>
   )
 }

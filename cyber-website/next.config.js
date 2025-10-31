@@ -1,13 +1,37 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-  swcMinify: true,
-  trailingSlash: true,
-  images: {
-    unoptimized: true
+  // Ensure CSS is properly handled in production
+  experimental: {
+    optimizeCss: false, // Disable CSS optimization that might remove animations
   },
-  // Remove output: 'export' for Vercel deployment
-  // Only use export for static hosting
+  
+  // Ensure static assets are properly served
+  assetPrefix: process.env.NODE_ENV === 'production' ? '' : '',
+  
+  // Optimize for Vercel deployment
+  output: 'standalone',
+  
+  // Ensure CSS animations are not stripped
+  compiler: {
+    removeConsole: process.env.NODE_ENV === 'production' ? {
+      exclude: ['error']
+    } : false,
+  },
+  
+  // Headers for proper CSS loading
+  async headers() {
+    return [
+      {
+        source: '/assets/css/:path*',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable',
+          },
+        ],
+      },
+    ]
+  },
 }
 
 module.exports = nextConfig
