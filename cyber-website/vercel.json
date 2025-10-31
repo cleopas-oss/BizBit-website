@@ -4,15 +4,10 @@
   "devCommand": "npm run dev",
   "installCommand": "npm install",
   "outputDirectory": ".next",
-  "functions": {
-    "pages/api/**/*.js": {
-      "runtime": "nodejs18.x"
-    }
-  },
   "rewrites": [
     {
       "source": "/assets/(.*)",
-      "destination": "/public/assets/$1"
+      "destination": "/assets/$1"
     }
   ]
 }
