@@ -1,0 +1,644 @@
+{
+  "services": [
+    {
+      "slug": "website-design-seo",
+      "title": "Website Design & SEO",
+      "category": "Web & System Development",
+      "price": 25000,
+      "currency": "KSH",
+      "summary": "Professional website design with built-in SEO optimization for maximum online visibility.",
+      "description": "Custom website design and development with comprehensive SEO optimization to ensure your business gets found online. We create responsive, fast-loading websites that convert visitors into customers.",
+      "features": [
+        "Responsive web design",
+        "SEO optimization",
+        "Content management system",
+        "Mobile-first approach",
+        "Performance optimization",
+        "Analytics integration"
+      ],
+      "deliveryTime": "2-4 weeks",
+      "support": "6 months included",
+      "warranty": "12 months"
+    },
+    {
+      "slug": "ecommerce-pos-systems",
+      "title": "E-commerce & POS Systems",
+      "category": "Web & System Development",
+      "price": 50000,
+      "currency": "KSH",
+      "summary": "Complete e-commerce solutions with integrated POS systems for seamless business operations.",
+      "description": "Full-featured e-commerce platforms with integrated Point of Sale systems, inventory management, and payment processing for both online and offline sales.",
+      "features": [
+        "E-commerce platform setup",
+        "POS system integration",
+        "Inventory management",
+        "Payment gateway integration",
+        "Order management",
+        "Customer management"
+      ],
+      "deliveryTime": "3-6 weeks",
+      "support": "6 months included",
+      "warranty": "12 months"
+    },
+    {
+      "slug": "crm-erp-implementation",
+      "title": "CRM & ERP Implementation",
+      "category": "Web & System Development",
+      "price": 75000,
+      "currency": "KSH",
+      "summary": "Customer Relationship Management and Enterprise Resource Planning system implementation.",
+      "description": "Comprehensive CRM and ERP solutions to streamline your business processes, manage customer relationships, and optimize resource allocation.",
+      "features": [
+        "CRM system setup",
+        "ERP implementation",
+        "Process automation",
+        "Data migration",
+        "Staff training",
+        "Custom workflows"
+      ],
+      "deliveryTime": "4-8 weeks",
+      "support": "6 months included",
+      "warranty": "12 months"
+    },
+    {
+      "slug": "progressive-web-apps-pwa",
+      "title": "Progressive Web Apps (PWA)",
+      "category": "Web & System Development",
+      "price": 60000,
+      "currency": "KSH",
+      "summary": "Modern Progressive Web Applications that work like native mobile apps.",
+      "description": "Build fast, reliable Progressive Web Apps that provide native app-like experiences across all devices with offline functionality and push notifications.",
+      "features": [
+        "PWA development",
+        "Offline functionality",
+        "Push notifications",
+        "App-like interface",
+        "Cross-platform compatibility",
+        "Performance optimization"
+      ],
+      "deliveryTime": "3-6 weeks",
+      "support": "6 months included",
+      "warranty": "12 months"
+    },
+    {
+      "slug": "customer-service-chatbots",
+      "title": "Customer Service Chatbots",
+      "category": "AI & Chatbot Solutions",
+      "price": 40000,
+      "currency": "KSH",
+      "summary": "AI-powered chatbots for automated customer service and support.",
+      "description": "Intelligent chatbots that handle customer inquiries, provide instant support, and improve customer satisfaction while reducing operational costs.",
+      "features": [
+        "AI chatbot development",
+        "Natural language processing",
+        "Multi-platform integration",
+        "24/7 customer support",
+        "Analytics and reporting",
+        "Continuous learning"
+      ],
+      "deliveryTime": "2-4 weeks",
+      "support": "6 months included",
+      "warranty": "12 months"
+    },
+    {
+      "slug": "whatsapp-social-media-bots",
+      "title": "WhatsApp & Social Media Bots",
+      "category": "AI & Chatbot Solutions",
+      "price": 35000,
+      "currency": "KSH",
+      "summary": "Automated bots for WhatsApp Business and social media platforms.",
+      "description": "Custom bots for WhatsApp Business and social media platforms to automate customer interactions, marketing campaigns, and lead generation.",
+      "features": [
+        "WhatsApp Business API integration",
+        "Social media automation",
+        "Lead generation bots",
+        "Marketing automation",
+        "Customer engagement",
+        "Analytics dashboard"
+      ],
+      "deliveryTime": "2-3 weeks",
+      "support": "6 months included",
+      "warranty": "12 months"
+    },
+    {
+      "slug": "recommendation-engines",
+      "title": "Recommendation Engines",
+      "category": "AI & Chatbot Solutions",
+      "price": 80000,
+      "currency": "KSH",
+      "summary": "AI-powered recommendation systems for personalized user experiences.",
+      "description": "Advanced recommendation engines that analyze user behavior and preferences to provide personalized product or content recommendations.",
+      "features": [
+        "Machine learning algorithms",
+        "User behavior analysis",
+        "Personalized recommendations",
+        "A/B testing framework",
+        "Performance analytics",
+        "Real-time processing"
+      ],
+      "deliveryTime": "4-6 weeks",
+      "support": "6 months included",
+      "warranty": "12 months"
+    },
+    {
+      "slug": "machine-learning-models",
+      "title": "Machine Learning Models",
+      "category": "AI & Chatbot Solutions",
+      "price": 100000,
+      "currency": "KSH",
+      "summary": "Custom machine learning models for business intelligence and automation.",
+      "description": "Develop and deploy custom machine learning models tailored to your business needs for predictive analytics, automation, and decision support.",
+      "features": [
+        "Custom ML model development",
+        "Data preprocessing",
+        "Model training and validation",
+        "Deployment and monitoring",
+        "Performance optimization",
+        "Continuous improvement"
+      ],
+      "deliveryTime": "6-10 weeks",
+      "support": "6 months included",
+      "warranty": "12 months"
+    },
+    {
+      "slug": "network-design-installation",
+      "title": "Network Design & Installation",
+      "category": "Networking & CCTV",
+      "price": 45000,
+      "currency": "KSH",
+      "summary": "Professional network infrastructure design and installation services.",
+      "description": "Complete network infrastructure solutions including design, installation, and configuration of enterprise-grade networking equipment.",
+      "features": [
+        "Network architecture design",
+        "Equipment installation",
+        "Configuration and testing",
+        "Security implementation",
+        "Documentation",
+        "Staff training"
+      ],
+      "deliveryTime": "1-3 weeks",
+      "support": "6 months included",
+      "warranty": "12 months"
+    },
+    {
+      "slug": "cctv-surveillance-systems",
+      "title": "CCTV & Surveillance Systems",
+      "category": "Networking & CCTV",
+      "price": 55000,
+      "currency": "KSH",
+      "summary": "Advanced CCTV and surveillance system installation and monitoring.",
+      "description": "Professional CCTV surveillance systems with high-definition cameras, remote monitoring capabilities, and advanced security features.",
+      "features": [
+        "HD camera installation",
+        "Remote monitoring setup",
+        "Motion detection",
+        "Night vision capabilities",
+        "Mobile app access",
+        "Cloud storage options"
+      ],
+      "deliveryTime": "1-2 weeks",
+      "support": "6 months included",
+      "warranty": "12 months"
+    },
+    {
+      "slug": "wireless-wifi-solutions",
+      "title": "Wireless & WiFi Solutions",
+      "category": "Networking & CCTV",
+      "price": 30000,
+      "currency": "KSH",
+      "summary": "Enterprise-grade wireless and WiFi network solutions.",
+      "description": "Comprehensive wireless networking solutions including WiFi setup, access point configuration, and network security implementation.",
+      "features": [
+        "WiFi network design",
+        "Access point installation",
+        "Network security setup",
+        "Guest network configuration",
+        "Performance optimization",
+        "Ongoing monitoring"
+      ],
+      "deliveryTime": "1-2 weeks",
+      "support": "6 months included",
+      "warranty": "12 months"
+    },
+    {
+      "slug": "network-security-firewalls",
+      "title": "Network Security & Firewalls",
+      "category": "Networking & CCTV",
+      "price": 40000,
+      "currency": "KSH",
+      "summary": "Advanced network security solutions and firewall implementation.",
+      "description": "Comprehensive network security solutions including firewall configuration, intrusion detection, and security monitoring systems.",
+      "features": [
+        "Firewall installation",
+        "Security policy configuration",
+        "Intrusion detection setup",
+        "VPN implementation",
+        "Security monitoring",
+        "Regular security audits"
+      ],
+      "deliveryTime": "1-3 weeks",
+      "support": "6 months included",
+      "warranty": "12 months"
+    },
+    {
+      "slug": "daraja-api-integration",
+      "title": "Daraja API Integration",
+      "category": "M-Pesa Integration",
+      "price": 35000,
+      "currency": "KSH",
+      "summary": "Professional M-Pesa Daraja API integration for seamless payment processing.",
+      "description": "Complete M-Pesa Daraja API integration enabling businesses to accept mobile payments, process transactions, and manage payment workflows.",
+      "features": [
+        "Daraja API setup",
+        "Payment processing integration",
+        "Transaction management",
+        "Webhook implementation",
+        "Security compliance",
+        "Testing and validation"
+      ],
+      "deliveryTime": "1-2 weeks",
+      "support": "6 months included",
+      "warranty": "12 months"
+    },
+    {
+      "slug": "stk-push-payment-collection",
+      "title": "STK Push & Payment Collection",
+      "category": "M-Pesa Integration",
+      "price": 25000,
+      "currency": "KSH",
+      "summary": "STK Push implementation for automated payment collection.",
+      "description": "Implement STK Push functionality for seamless payment collection directly from customer mobile phones with automated transaction processing.",
+      "features": [
+        "STK Push implementation",
+        "Automated payment collection",
+        "Transaction notifications",
+        "Payment confirmation",
+        "Error handling",
+        "Reporting dashboard"
+      ],
+      "deliveryTime": "1-2 weeks",
+      "support": "6 months included",
+      "warranty": "12 months"
+    },
+    {
+      "slug": "b2b-b2c-payment-solutions",
+      "title": "B2B & B2C Payment Solutions",
+      "category": "M-Pesa Integration",
+      "price": 50000,
+      "currency": "KSH",
+      "summary": "Comprehensive B2B and B2C payment processing solutions.",
+      "description": "Complete payment solutions for both business-to-business and business-to-consumer transactions with multi-channel payment support.",
+      "features": [
+        "B2B payment processing",
+        "B2C payment solutions",
+        "Multi-channel support",
+        "Payment reconciliation",
+        "Automated settlements",
+        "Comprehensive reporting"
+      ],
+      "deliveryTime": "2-4 weeks",
+      "support": "6 months included",
+      "warranty": "12 months"
+    },
+    {
+      "slug": "transaction-tracking-reporting",
+      "title": "Transaction Tracking & Reporting",
+      "category": "M-Pesa Integration",
+      "price": 30000,
+      "currency": "KSH",
+      "summary": "Advanced transaction tracking and comprehensive reporting systems.",
+      "description": "Comprehensive transaction tracking and reporting solutions with real-time monitoring, analytics, and detailed financial reports.",
+      "features": [
+        "Real-time transaction tracking",
+        "Comprehensive reporting",
+        "Analytics dashboard",
+        "Automated reconciliation",
+        "Export capabilities",
+        "Custom report generation"
+      ],
+      "deliveryTime": "2-3 weeks",
+      "support": "6 months included",
+      "warranty": "12 months"
+    },
+    {
+      "slug": "monthly-bookkeeping-packages",
+      "title": "Monthly Bookkeeping Packages",
+      "category": "Accounting & Bookkeeping",
+      "price": 15000,
+      "currency": "KSH",
+      "summary": "Professional monthly bookkeeping services for small and medium businesses.",
+      "description": "Comprehensive monthly bookkeeping services including transaction recording, bank reconciliation, and financial statement preparation.",
+      "features": [
+        "Monthly transaction recording",
+        "Bank reconciliation",
+        "Financial statements",
+        "Expense categorization",
+        "Tax preparation support",
+        "Monthly financial reports"
+      ],
+      "deliveryTime": "Ongoing monthly",
+      "support": "Continuous support",
+      "warranty": "Service guarantee"
+    },
+    {
+      "slug": "financial-reporting-dashboards",
+      "title": "Financial Reporting Dashboards",
+      "category": "Accounting & Bookkeeping",
+      "price": 40000,
+      "currency": "KSH",
+      "summary": "Interactive financial reporting dashboards for real-time business insights.",
+      "description": "Custom financial reporting dashboards that provide real-time insights into your business performance with interactive charts and analytics.",
+      "features": [
+        "Interactive dashboards",
+        "Real-time financial data",
+        "Custom KPI tracking",
+        "Automated report generation",
+        "Data visualization",
+        "Mobile accessibility"
+      ],
+      "deliveryTime": "2-4 weeks",
+      "support": "6 months included",
+      "warranty": "12 months"
+    },
+    {
+      "slug": "invoice-expense-management",
+      "title": "Invoice & Expense Management",
+      "category": "Accounting & Bookkeeping",
+      "price": 20000,
+      "currency": "KSH",
+      "summary": "Automated invoice generation and expense management systems.",
+      "description": "Streamlined invoice and expense management solutions with automated workflows, approval processes, and integration with accounting systems.",
+      "features": [
+        "Automated invoice generation",
+        "Expense tracking",
+        "Approval workflows",
+        "Payment tracking",
+        "Integration capabilities",
+        "Mobile expense capture"
+      ],
+      "deliveryTime": "2-3 weeks",
+      "support": "6 months included",
+      "warranty": "12 months"
+    },
+    {
+      "slug": "tax-compliance-automation",
+      "title": "Tax Compliance Automation",
+      "category": "Accounting & Bookkeeping",
+      "price": 35000,
+      "currency": "KSH",
+      "summary": "Automated tax compliance systems to ensure accurate and timely tax submissions.",
+      "description": "Comprehensive tax compliance automation solutions that ensure accurate tax calculations, timely submissions, and regulatory compliance.",
+      "features": [
+        "Automated tax calculations",
+        "Compliance monitoring",
+        "Timely submission alerts",
+        "Regulatory updates",
+        "Audit trail maintenance",
+        "Multi-tax support"
+      ],
+      "deliveryTime": "2-4 weeks",
+      "support": "6 months included",
+      "warranty": "12 months"
+    },
+    {
+      "slug": "search-engine-optimization",
+      "title": "Search Engine Optimization (SEO)",
+      "category": "Digital Marketing",
+      "price": 25000,
+      "currency": "KSH",
+      "summary": "Comprehensive SEO services to improve your website's search engine rankings.",
+      "description": "Professional SEO services including keyword research, on-page optimization, content strategy, and link building to improve search rankings.",
+      "features": [
+        "Keyword research and analysis",
+        "On-page SEO optimization",
+        "Content strategy development",
+        "Link building campaigns",
+        "Technical SEO audits",
+        "Performance monitoring"
+      ],
+      "deliveryTime": "Ongoing monthly",
+      "support": "Continuous support",
+      "warranty": "Performance guarantee"
+    },
+    {
+      "slug": "social-media-management",
+      "title": "Social Media Management",
+      "category": "Digital Marketing",
+      "price": 20000,
+      "currency": "KSH",
+      "summary": "Professional social media management and content creation services.",
+      "description": "Complete social media management including content creation, posting schedules, community management, and performance analytics.",
+      "features": [
+        "Content creation and curation",
+        "Social media posting",
+        "Community management",
+        "Performance analytics",
+        "Brand voice development",
+        "Engagement strategies"
+      ],
+      "deliveryTime": "Ongoing monthly",
+      "support": "Continuous support",
+      "warranty": "Service guarantee"
+    },
+    {
+      "slug": "content-marketing-strategy",
+      "title": "Content Marketing Strategy",
+      "category": "Digital Marketing",
+      "price": 30000,
+      "currency": "KSH",
+      "summary": "Strategic content marketing planning and execution for brand growth.",
+      "description": "Comprehensive content marketing strategy development including content planning, creation, distribution, and performance measurement.",
+      "features": [
+        "Content strategy development",
+        "Editorial calendar creation",
+        "Content creation",
+        "Distribution planning",
+        "Performance measurement",
+        "Brand storytelling"
+      ],
+      "deliveryTime": "2-4 weeks",
+      "support": "6 months included",
+      "warranty": "Strategy guarantee"
+    },
+    {
+      "slug": "email-marketing-campaigns",
+      "title": "Email Marketing Campaigns",
+      "category": "Digital Marketing",
+      "price": 15000,
+      "currency": "KSH",
+      "summary": "Targeted email marketing campaigns for customer engagement and retention.",
+      "description": "Professional email marketing campaigns including list building, campaign design, automation setup, and performance tracking.",
+      "features": [
+        "Email campaign design",
+        "List building strategies",
+        "Marketing automation",
+        "A/B testing",
+        "Performance analytics",
+        "Segmentation strategies"
+      ],
+      "deliveryTime": "1-2 weeks",
+      "support": "3 months included",
+      "warranty": "Campaign guarantee"
+    },
+    {
+      "slug": "brand-strategy-business-identity",
+      "title": "Brand Strategy & Business Identity",
+      "category": "Business Services",
+      "price": 45000,
+      "currency": "KSH",
+      "summary": "Comprehensive brand strategy development and business identity creation.",
+      "description": "Complete brand strategy and identity development including logo design, brand guidelines, messaging, and market positioning.",
+      "features": [
+        "Brand strategy development",
+        "Logo and identity design",
+        "Brand guidelines creation",
+        "Messaging framework",
+        "Market positioning",
+        "Brand asset creation"
+      ],
+      "deliveryTime": "3-5 weeks",
+      "support": "6 months included",
+      "warranty": "Design guarantee"
+    },
+    {
+      "slug": "business-automation-operations",
+      "title": "Business Automation & Operations",
+      "category": "Business Services",
+      "price": 60000,
+      "currency": "KSH",
+      "summary": "Business process automation and operational efficiency optimization.",
+      "description": "Comprehensive business automation solutions to streamline operations, reduce manual work, and improve efficiency across all business processes.",
+      "features": [
+        "Process automation design",
+        "Workflow optimization",
+        "System integration",
+        "Efficiency analysis",
+        "Staff training",
+        "Performance monitoring"
+      ],
+      "deliveryTime": "4-6 weeks",
+      "support": "6 months included",
+      "warranty": "12 months"
+    },
+    {
+      "slug": "outsourced-back-office-support",
+      "title": "Outsourced Back-Office Support",
+      "category": "Business Services",
+      "price": 25000,
+      "currency": "KSH",
+      "summary": "Professional back-office support services for administrative tasks.",
+      "description": "Comprehensive back-office support including data entry, document management, customer service, and administrative task outsourcing.",
+      "features": [
+        "Data entry services",
+        "Document management",
+        "Customer service support",
+        "Administrative tasks",
+        "Quality assurance",
+        "Dedicated support team"
+      ],
+      "deliveryTime": "Ongoing monthly",
+      "support": "Continuous support",
+      "warranty": "Service guarantee"
+    },
+    {
+      "slug": "client-dashboard-support-services",
+      "title": "Client Dashboard & Support Services",
+      "category": "Business Services",
+      "price": 35000,
+      "currency": "KSH",
+      "summary": "Custom client dashboards and comprehensive support service systems.",
+      "description": "Professional client dashboard development with integrated support systems for enhanced customer experience and service delivery.",
+      "features": [
+        "Custom dashboard development",
+        "Client portal creation",
+        "Support ticket system",
+        "Knowledge base integration",
+        "Performance analytics",
+        "Mobile accessibility"
+      ],
+      "deliveryTime": "3-5 weeks",
+      "support": "6 months included",
+      "warranty": "12 months"
+    },
+    {
+      "slug": "tax-advisory-filing",
+      "title": "Tax Advisory & Filing",
+      "category": "Tax & Compliance Services",
+      "price": 20000,
+      "currency": "KSH",
+      "summary": "Professional tax advisory services and accurate tax filing assistance.",
+      "description": "Expert tax advisory and filing services ensuring compliance with Kenyan tax regulations and optimization of tax obligations.",
+      "features": [
+        "Tax planning and advisory",
+        "Accurate tax filing",
+        "Compliance monitoring",
+        "Tax optimization strategies",
+        "Audit support",
+        "Regulatory updates"
+      ],
+      "deliveryTime": "1-2 weeks",
+      "support": "12 months included",
+      "warranty": "Compliance guarantee"
+    },
+    {
+      "slug": "ecitizen-government-services",
+      "title": "eCitizen & Government Services",
+      "category": "Tax & Compliance Services",
+      "price": 15000,
+      "currency": "KSH",
+      "summary": "eCitizen portal assistance and government service applications.",
+      "description": "Professional assistance with eCitizen portal navigation, government service applications, and compliance documentation.",
+      "features": [
+        "eCitizen portal assistance",
+        "Government service applications",
+        "Document preparation",
+        "Application tracking",
+        "Compliance verification",
+        "Status updates"
+      ],
+      "deliveryTime": "1 week",
+      "support": "3 months included",
+      "warranty": "Service guarantee"
+    },
+    {
+      "slug": "ntsa-etims-sha-compliance",
+      "title": "NTSA, eTIMS & SHA Compliance",
+      "category": "Tax & Compliance Services",
+      "price": 25000,
+      "currency": "KSH",
+      "summary": "Comprehensive compliance services for NTSA, eTIMS, and SHA requirements.",
+      "description": "Complete compliance solutions for NTSA vehicle registration, eTIMS tax compliance, and SHA safety and health requirements.",
+      "features": [
+        "NTSA compliance assistance",
+        "eTIMS system setup",
+        "SHA compliance verification",
+        "Documentation preparation",
+        "Renewal reminders",
+        "Compliance monitoring"
+      ],
+      "deliveryTime": "1-2 weeks",
+      "support": "6 months included",
+      "warranty": "Compliance guarantee"
+    },
+    {
+      "slug": "corporate-registration-legal-services",
+      "title": "Corporate Registration & Legal Services",
+      "category": "Tax & Compliance Services",
+      "price": 30000,
+      "currency": "KSH",
+      "summary": "Complete corporate registration and legal compliance services.",
+      "description": "Comprehensive corporate registration services including business registration, legal documentation, and ongoing compliance support.",
+      "features": [
+        "Business registration",
+        "Legal documentation",
+        "Compliance setup",
+        "Regulatory filings",
+        "Legal advisory",
+        "Ongoing support"
+      ],
+      "deliveryTime": "2-3 weeks",
+      "support": "12 months included",
+      "warranty": "Legal guarantee"
+    }
+  ]
+}
