@@ -6,10 +6,8 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  assetPrefix: process.env.NODE_ENV === 'production' ? '' : '',
-  // Ensure static export compatibility
-  output: 'export',
-  distDir: 'out'
+  // Remove output: 'export' for Vercel deployment
+  // Only use export for static hosting
 }
 
 module.exports = nextConfig
